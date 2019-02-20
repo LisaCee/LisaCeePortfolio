@@ -105,7 +105,7 @@ a {
 }
 
 a:hover {
-	color: #43bff0 !important;
+	color: #5ea5a7 !important;
 }
 
 a img {
@@ -119,6 +119,10 @@ b, strong {
 
 i, em {
 	font-style: italic;
+}
+
+::selection {
+	background: #bedbdb;
 }
 
 sub {
