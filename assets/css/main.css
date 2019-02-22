@@ -1688,6 +1688,14 @@ input[type="radio"]+label:before {
 	text-transform: none !important;
 }
 
+li.fab.fa-react:before {
+	font-family: 'Font Awesome 5 Brands';
+}
+
+.fab {
+	font: inherit;
+}
+
 .icon>.label {
 	display: none;
 }
@@ -2792,8 +2800,4 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	input[type="submit"], input[type="reset"], input[type="button"], .button {
 		padding: 0;
 	}
-}
-
-li.fab.fa-react:before {
-	font-family: 'Font Awesome 5 Brands';
 }
