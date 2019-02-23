@@ -878,8 +878,12 @@
     content: "\f0b2"
 }
 
-.fa-group:before, .fa-users:before {
+.fa-group:before {
     content: "\f0c0"
+}
+
+.fa-crown:before {
+    content: "\f521"
 }
 
 .fa-chain:before, .fa-link:before {

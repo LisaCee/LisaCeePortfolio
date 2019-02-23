@@ -2219,7 +2219,7 @@ input[type="submit"].primary, input[type="reset"].primary, input[type="button"].
 }
 
 input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, .button.primary:hover {
-	background-color: #5ed0b1;
+	background-color: #80D9C2;
 }
 
 input[type="submit"].primary:active, input[type="reset"].primary:active, input[type="button"].primary:active, .button.primary:active {
@@ -2311,8 +2311,24 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	color: #d2f2e9;
 }
 
-#header a:hover {
-	color: #ffffff !important;
+#header a.icon.fa-github:hover {
+	font-size: 110%;
+	color: black !important;
+}
+
+#header a.icon.fa-linkedin-in:hover {
+	font-size: 110%;
+	color: #0077b5 !important;
+}
+
+#header a.icon.fa-twitter:hover {
+	font-size: 110%;
+	color: #1da1f2 !important;
+}
+
+#header a.icon.fa-envelope:hover {
+	font-size: 110%;
+	color: white !important;
 }
 
 #header>header {
@@ -2800,4 +2816,13 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	input[type="submit"], input[type="reset"], input[type="button"], .button {
 		padding: 0;
 	}
+}
+
+#nav li a:hover {
+	background-color: #80D9C2;
+	font-weight: bold;
+}
+
+li.fas.fa-crown:before {
+	content: "\f521"
 }
