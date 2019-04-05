@@ -7,7 +7,7 @@
   "author": "LisaCee <lisaceedesign@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npm run build"
+    "build": "npm build"
   }
   
 }
